@@ -2,7 +2,11 @@ package exercicios;
 
 import java.util.Scanner;
 
-//1. Gratificação de natal (IF)
+/**
+ * Gratificação de natal (IF)
+ * @author Ganske
+ *
+ */
 public class Exercicio1 {
 
 	public static void main(String[] args) {
@@ -24,7 +28,7 @@ public class Exercicio1 {
 
 		inputData.close();
 
-		(minutes) = (extraTime) - (2 / 3 * (faultTime));
+		minutes = (extraTime - (2 * faultTime / 3));
 
 		if (minutes < 600) {
 			bonus = 100.00;
@@ -40,11 +44,12 @@ public class Exercicio1 {
 
 		} else {
 			bonus = 500.00;
-			;
-		}
 
+		}
+		System.out.println(minutes);
 		System.out.println(
-				"A quantidade de horas extras foi de " + minutes + ", por esse motivo, seu bônus será de R$" + bonus);
+				"A quantidade de horas extras foi de " + (minutes) + ", por esse motivo, seu bônus será de R$" + bonus);
+
 	}
 
 }
