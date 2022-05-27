@@ -2,9 +2,14 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Acrescente as seguintes mensagens à solução da tarefa 14 conforme o caso.
-//Caso o número de lados seja inferior a 3 escrever NÃO É UM POLÍGONO.
-//Caso o número de lados seja superior a 5 escrever POLÍGONO NÃO IDENTIFICADO.
+/**
+ * Acrescente as seguintes mensagens à solução da tarefa 14 conforme o caso.
+ * Caso o número de lados seja inferior a 3 escrever NÃO É UM POLÍGONO. Caso o
+ * número de lados seja superior a 5 escrever POLÍGONO NÃO IDENTIFICADO.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio15 {
 
 	public static void main(String[] args) {
@@ -29,7 +34,7 @@ public class Exercicio15 {
 			} else if (sides == 4) {
 				polygon = "quadrado";
 				area = (measure * measure);
-				
+
 			} else if (sides == 5) {
 				polygon = "pentágono";
 				area = (5 * Math.pow(measure, 2)) / (4 * 07265);

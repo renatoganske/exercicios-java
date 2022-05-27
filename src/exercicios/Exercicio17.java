@@ -2,7 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é Equilátero, Isósceles ou Escaleno.
+/**
+ * Escreva um programa que leia as medidas dos lados de um triângulo e escreva
+ * se ele é Equilátero, Isósceles ou Escaleno.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio17 {
 
 	public static void main(String[] args) {
@@ -22,7 +28,7 @@ public class Exercicio17 {
 
 		if (edge1 == edge2 && edge2 == edge3) {
 			triangle = "equilateral";
-			
+
 		} else if (edge1 == edge2 || edge2 == edge3 || edge1 == edge3) {
 			triangle = "isósceles";
 

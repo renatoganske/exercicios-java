@@ -2,9 +2,14 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Tendo como entrada a altura e o sexo (codificado da seguinte forma: 
-//1: feminino 2: masculino) de uma pessoa, construa um programa que calcule
-//e imprima seu peso ideal, conforme referência oferecida.
+/**
+ * Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1:
+ * feminino 2: masculino) de uma pessoa, construa um programa que calcule e
+ * imprima seu peso ideal, conforme referência oferecida.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio13 {
 
 	public static void main(String[] args) {

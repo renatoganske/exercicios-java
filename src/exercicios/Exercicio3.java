@@ -2,8 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir.
-//Para idade inferior a 5, deverá mostrar mensagem.
+/**
+ * Faça um programa que receba a idade de um nadador e mostre sua categoria,
+ * usando as regras a seguir. Para idade inferior a 5, deverá mostrar mensagem.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio3 {
 
 	public static void main(String[] args) {
@@ -16,7 +21,7 @@ public class Exercicio3 {
 		System.out.println("Olá! Digite uma idade:");
 
 		age = inputData.nextInt();
-		
+
 		inputData.close();
 
 		if (age < 5) {

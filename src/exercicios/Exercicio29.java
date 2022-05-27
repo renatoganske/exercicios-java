@@ -60,5 +60,6 @@ public class Exercicio29 {
 					"Prezado(a) %s, você alcançou a frequência de %.2f%% de aulas assistidas e sua média foi %.2f. Portanto, você está em exame.",
 					studentName, frequency, average);
 		}
+		inputData.close();
 	}
 }

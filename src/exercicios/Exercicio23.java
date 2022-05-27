@@ -2,7 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Desenvolva um programa que dado um número, imprima uma das mensagens: é múltiplo de 3 ou não é múltiplo de 3. 
+/**
+ * Desenvolva um programa que dado um número, imprima uma das mensagens: é
+ * múltiplo de 3 ou não é múltiplo de 3.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio23 {
 
 	public static void main(String[] args) {

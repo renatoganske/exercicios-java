@@ -2,8 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Escreva um programa para ler 2 valores (considere que não serão
-//informados valores iguais) e escrever o maior deles.
+/**
+ * Escreva um programa para ler 2 valores (considere que não serão informados
+ * valores iguais) e escrever o maior deles.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio8 {
 
 	public static void main(String[] args) {

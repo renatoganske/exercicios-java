@@ -2,7 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Escreva um programa que leia o valor de 3 ângulos de um triângulo e escreva se o triângulo é Acutângulo, Retângulo ou Obtusângulo.
+/**
+ * Escreva um programa que leia o valor de 3 ângulos de um triângulo e escreva
+ * se o triângulo é Acutângulo, Retângulo ou Obtusângulo.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio18 {
 
 	public static void main(String[] args) {

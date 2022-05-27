@@ -2,8 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-//Escreva um programa para ler 3 valores inteiros
-//(considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+/**
+ * Escreva um programa para ler 3 valores inteiros (considere que não serão
+ * lidos valores iguais) e escrevê-los em ordem crescente.
+ * 
+ * @author Ganske
+ *
+ */
 public class Exercicio12 {
 
 	public static void main(String[] args) {
